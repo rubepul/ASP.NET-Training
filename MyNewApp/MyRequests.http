@@ -1,0 +1,21 @@
+GET http://localhost:5216/todos
+
+###
+
+POST http://localhost:5216/todos 
+Content-Type: application/json
+
+{
+  "id": 2,
+  "name": "Write another demo",
+  "dueDate": "2023-12-31",
+  "isCompleted": false
+}
+
+### GET request with route parameter
+
+GET http://localhost:5216/todos/2
+
+###
+
+DELETE http://localhost:5216/todos/2
