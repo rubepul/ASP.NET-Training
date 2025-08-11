@@ -7,8 +7,8 @@ Content-Type: application/json
 
 {
   "id": 2,
-  "name": "Write another demo",
-  "dueDate": "2023-12-31",
+  "name": "Write second demo",
+  "dueDate": "2025-12-31",
   "isCompleted": false
 }
 
@@ -18,4 +18,7 @@ GET http://localhost:5216/todos/2
 
 ###
 
-DELETE http://localhost:5216/todos/2
+DELETE http://localhost:5216/todos/1
+
+###
+GET http://localhost:5216/tasks/1
